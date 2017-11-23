@@ -1,0 +1,5 @@
+$(document).ready(function() {
+  if (mysite.initialized) {
+[[CONTENT_PART]]
+  }
+});

@@ -1,0 +1,10 @@
+mysite.booking.config = {
+  itemId: [[item_id]],
+  isBookable: [[is_bookable]]
+  successCallback: function() {
+    showDialogToUser("[[success_title]]", "[[success_message]]", mysite.gui.config.SUCCESS_KEY);
+  },
+  errorCallback: function() {
+    showDialogToUser("[[error_title]]", "[[error_message]]", mysite.gui.config.ERROR_KEY);
+  }
+};
